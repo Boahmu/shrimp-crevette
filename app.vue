@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-neutral-400 dark:bg-gray-800 transition-colors duration-500">
+  <UApp class="bg-neutral-400 dark:bg-gray-800 transition-colors duration-500">
     <NuxtRouteAnnouncer />
     <NuxtPage class="text-cyan-950 dark:text-white" />
-    <button @click="isDark = !isDark"> ICI</button>
-  </div>
+  <UButton @click="isDark = !isDark"> Switch Mode</UButton>
+  </UApp>
 </template>
 
 <script setup>
