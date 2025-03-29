@@ -1,26 +1,23 @@
 <template>
-  <UApp class="bg-neutral-400 dark:bg-gray-800 transition-colors duration-500">
-    <NuxtRouteAnnouncer />
-    <NuxtPage class="text-cyan-950 dark:text-white" />
-  <UButton @click="isDark = !isDark"> Switch Mode</UButton>
-  </UApp>
+  <main class="flex flex-col min-h-screen bg-zinc-200">
+    <NuxtLoadingIndicator :height="2" :throttle="0" color="#00c951"/>
+    <AppHeader/>
+    <NuxtRouteAnnouncer/>
+    <NuxtPage class="flex-grow"/>
+    <button @click="console.log('test2')"> Switch Mode</button>
+
+    <AppFooter/>
+  </main>
+
 </template>
 
-<script setup>
-const colorMode = useColorMode()
+<script setup lang="ts">
 
-const isDark = computed({
-  get() {
-    return colorMode.value === 'dark'
-  },
-  set() {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-  }
-})
+import AppHeader from "~/components/AppHeader.vue";
 </script>
 
 <style>
 div {
-  font-family: Roboto Slab, sans-serif;
+  font-family: Public Sans, sans-serif;
 }
 </style>
