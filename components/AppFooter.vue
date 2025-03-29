@@ -19,7 +19,7 @@
 
       <div class="mt-4 text-center min-w-90">
         <h2 class="text-lg font-bold">Navigation rapide</h2>
-        <nav class="flex justify-center gap-6">
+        <nav class="flex justify-center gap-6 mt-3">
           <NuxtLink class="hover:text-green-500" to="/">Accueil</NuxtLink>
           <NuxtLink class="hover:text-green-500" to="/guide">Guide</NuxtLink>
           <NuxtLink class="hover:text-green-500" to="/blog">Blog</NuxtLink>
