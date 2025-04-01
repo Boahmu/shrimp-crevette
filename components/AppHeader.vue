@@ -13,6 +13,7 @@ const closeMenu = () => {
 };
 </script>
 
+
 <template>
   <header class="bg-zinc-900/90 sticky top-0 backdrop-blur-xs">
     <div>
@@ -21,8 +22,7 @@ const closeMenu = () => {
           <span>
             <NuxtLink to="/" class="flex items-center space-x-2 text-green-500" @click="closeMenu">
               <Icon name="ph:shrimp-fill" size="36" class="active:text-green-700"/>
-              <h1
-                  class="text-2xl text-zinc-100 tracking-tighter active:text-green-500">Shrimp Crevette</h1>
+              <h1 class="text-2xl text-zinc-100 tracking-tighter active:text-green-500">Shrimp Crevette</h1>
             </NuxtLink>
           </span>
         </div>
@@ -52,27 +52,38 @@ const closeMenu = () => {
         </nav>
       </div>
       <nav
-          :class="{'hidden': !isMenuOpen, 'block': isMenuOpen }"
-          class="md:hidden text-zinc-100 transition-transform duration-300 ease-in-out">
-        <ul class="flex flex-col space-y-2 text-md text-center p-2 gap-1">
-          <li class="p-1.5">
-            <NuxtLink class="hover:text-zinc-400" to="/" @click="closeMenu">Accueil</NuxtLink>
-          </li>
-          <li class="p-1.5">
-            <NuxtLink class="hover:text-zinc-400" to="/guide" @click="closeMenu">Guide</NuxtLink>
-          </li>
-          <li class="p-1.5">
-            <NuxtLink class="hover:text-zinc-400" to="/blog" @click="closeMenu">Blog</NuxtLink>
-          </li>
-          <li class="p-1.5">
-            <NuxtLink class="hover:text-zinc-400" to="/about" @click="closeMenu">A propos</NuxtLink>
-          </li>
-        </ul>
+          :class="[
+        {'hidden': !isMenuOpen, 'block': isMenuOpen},
+        'md:hidden text-zinc-100']">
+        <Transition
+            enter-active-class="transition duration-300 ease-out"
+            enter-from-class="transform -translate-y-4 opacity-0"
+            enter-to-class="transform translate-y-0 opacity-100"
+            leave-active-class="transition duration-200 ease-in"
+            leave-from-class="transform translate-y-0 opacity-100"
+            leave-to-class="transform -translate-y-4 opacity-0"
+        >
+          <ul v-show="isMenuOpen" class="flex flex-col space-y-2 text-md text-center p-2 gap-1">
+            <li class="p-1.5">
+              <NuxtLink class="hover:text-zinc-400 active:text-green-500" to="/" @click="closeMenu">Accueil</NuxtLink>
+            </li>
+            <li class="p-1.5">
+              <NuxtLink class="hover:text-zinc-400 active:text-green-500" to="/guide" @click="closeMenu">Guide
+              </NuxtLink>
+            </li>
+            <li class="p-1.5">
+              <NuxtLink class="hover:text-zinc-400 active:text-green-500" to="/blog" @click="closeMenu">Blog</NuxtLink>
+            </li>
+            <li class="p-1.5">
+              <NuxtLink class="hover:text-zinc-400 active:text-green-500" to="/about" @click="closeMenu">A propos
+              </NuxtLink>
+            </li>
+          </ul>
+        </Transition>
       </nav>
     </div>
   </header>
 </template>
 
 <style scoped>
-
 </style>
