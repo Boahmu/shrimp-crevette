@@ -3,7 +3,7 @@
 
   <AppHeader/>
 
-  <div class="flex flex-col min-h-screen bg-green-100">
+  <div class="flex flex-col min-h-screen bg-white">
     <!-- Contenu principal qui pousse le footer -->
     <div class="flex-grow container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
       <NuxtRouteAnnouncer/>

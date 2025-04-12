@@ -12,7 +12,7 @@
         <strong>Sulawesi</strong>.
       </p>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
         <!-- Caridina -->
         <div
             class="relative block bg-white rounded-3xl shadow-xl transition overflow-hidden transform hover:-translate-y-1 duration-300 cursor-not-allowed opacity-60">
@@ -26,8 +26,8 @@
                 class="w-full h-40 object-cover group-hover:brightness-90 transition duration-300">
             <div class="p-6 space-y-3">
               <h3 class="text-lg font-bold">Guide des Caridinas</h3>
-              <p class="text-sm text-gray-600">Sensibles aux paramètres, elles sont prisées pour la reproduction
-                sélective sur sol technique.</p>
+              <p class="text-sm text-gray-600">Sensibles aux paramètres et souvent élevées sur sol technique, les
+                Caridinas séduisent les passionnés à la recherche de défis et de sélections génétiques.</p>
             </div>
           </div>
         </div>
@@ -45,8 +45,8 @@
                 class="w-full h-40 object-cover group-hover:brightness-90 transition duration-300">
             <div class="p-6 space-y-3">
               <h3 class="text-lg font-bold">Guide des Neocaridinas</h3>
-              <p class="text-sm text-gray-600">Colorées et robustes, idéales pour les débutants et les bacs
-                communautaires.</p>
+              <p class="text-sm text-gray-600">Tolérantes et faciles à maintenir, les Neocaridinas offrent un large
+                choix de couleurs, idéales pour les débutants comme pour les bacs communautaires.</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,8 @@
                 class="w-full h-40 object-cover group-hover:brightness-90 transition duration-300">
             <div class="p-6 space-y-3">
               <h3 class="text-lg font-bold">Guide des crevettes Japonica (Amano)</h3>
-              <p class="text-sm text-gray-600">Très utiles contre les algues, elles sont robustes et pacifiques.</p>
+              <p class="text-sm text-gray-600">Très actives et résistantes, les crevettes Amano sont reconnues pour leur
+                efficacité contre les algues et leur comportement pacifique.</p>
             </div>
           </div>
         </div>
@@ -82,8 +83,8 @@
                 class="w-full h-40 object-cover group-hover:brightness-90 transition duration-300">
             <div class="p-6 space-y-3">
               <h3 class="text-lg font-bold">Guide des Sulawesi</h3>
-              <p class="text-sm text-gray-600">Exotiques et exigeantes, ces crevettes nécessitent une eau très
-                stable.</p>
+              <p class="text-sm text-gray-600">Issues des lacs indonésiens, les crevettes Sulawesi exigent une eau très
+                stable et une attention particulière, mais offrent des formes et couleurs uniques.</p>
             </div>
           </div>
         </div>
