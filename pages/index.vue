@@ -10,6 +10,7 @@
 </template>
 
 <script setup lang="ts">
+
 useHead({
   title: "Shrimp Crevette - Guides & actu des crevettes d’aquarium",
   meta: [
