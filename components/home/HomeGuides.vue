@@ -4,7 +4,7 @@
 
 <template>
   <section class="bg-white py-12 rounded-3xl">
-    <div class="max-w-6xl mx-auto px-4 space-y-10">
+    <div class="max-w-6xl mx-auto px-4 space-y-10 appear">
       <h2 class="text-2xl font-semibold title-h2 text-center">Guides par type de crevette</h2>
       <p class="text-center text-base text-gray-600 max-w-2xl mx-auto">
         Avant de choisir une espèce ou un bac spécifique, découvrez les grandes familles de crevettes d’eau douce :
@@ -94,5 +94,18 @@
 </template>
 
 <style scoped>
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+.appear {
+  animation: fade-slide-up 0.8s ease-out forwards;
+}
 </style>
