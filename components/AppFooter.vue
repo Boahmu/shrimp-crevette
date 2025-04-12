@@ -37,7 +37,9 @@
 
       <div class="mt-4 text-center md:w-full">
         <h2 class="text-lg font-bold">Contact nous !</h2>
-        <a href="mailto:contact@shrimp-crevette.com" class="text-green-500 hover:text-green-600">contact@shrimp-crevette.com</a>
+        <a
+            href="mailto:contact@shrimp-crevette.com"
+            class="text-green-500 hover:text-green-600">contact@shrimp-crevette.com</a>
       </div>
     </div>
 

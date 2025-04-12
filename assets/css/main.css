@@ -8,7 +8,7 @@
 }
 
 .btn-hero {
-    @apply inline-flex items-center justify-center px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg bg-gradient-to-r from-green-500 to-emerald-600 text-white hover:from-green-600 hover:to-emerald-700;
+    @apply inline-flex items-center justify-center px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg bg-gradient-to-r from-green-700 to-green-600 text-white hover:from-green-600 hover:to-green-700;
 }
 
 .btn-primary {
@@ -16,5 +16,21 @@
 }
 
 .btn-outline {
-    @apply border border-green-600 text-green-700 hover:bg-green-600 hover:text-white;
+    @apply border border-green-600 text-green-700 hover:bg-green-100 ;
+}
+
+.title-h1 {
+    @apply text-green-700;
+}
+
+.title-h2 {
+    @apply text-green-800;
+}
+
+.title-h3 {
+    @apply text-green-900;
+}
+
+.link {
+    @apply text-green-600 hover:text-green-700;
 }

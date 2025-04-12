@@ -1,14 +1,14 @@
 <template>
-  <section class="text-zinc-900">
+  <section class="text-gray-800">
     <div class="container mx-auto max-w-7xl px-4 py-12 space-y-16">
 
       <!-- Hero section -->
       <div class="relative">
         <div class="container mx-auto max-w-4xl px-4 text-center space-y-8 animate-fade-in">
-          <h1 class="text-5xl font-bold text-green-600 drop-shadow-sm">
+          <h1 class="text-5xl font-bold title-h1 drop-shadow-sm">
             Shrimp Crevette
           </h1>
-          <p class="text-lg text-gray-700 leading-relaxed">
+          <p class="text-lg  leading-relaxed">
             Shrimp Crevette, le site francophone des passionnés de crevettes. <br>
             Guides, conseils, retours d’expérience, actus : tout ce qu’il faut pour mieux comprendre et prendre soin de
             ces
@@ -28,8 +28,8 @@
 
       <section class="bg-white py-12 rounded-3xl">
         <div class="container mx-auto max-w-3xl px-4 text-center space-y-6">
-          <h2 class="text-2xl font-semibold text-green-700">Un site créé par passion</h2>
-          <p class="text-gray-700 text-base leading-relaxed">
+          <h2 class="text-2xl font-semibold title-h2">Un site créé par passion</h2>
+          <p class=" text-base leading-relaxed">
             Shrimp Crevette est une initiative francophone dédiée aux crevettes ornementales.
             Ce site regroupe conseils, guides et actualités pour tous les passionnés d’aquariophilie.
           </p>
@@ -45,19 +45,19 @@
 
       <section class="bg-white py-10 rounded-3xl">
         <div class="container mx-auto max-w-5xl px-4 space-y-8">
-          <h2 class="text-2xl font-semibold text-center text-green-700">Derniers articles</h2>
+          <h2 class="text-2xl font-semibold text-center title-h2">Derniers articles</h2>
           <div class="grid md:grid-cols-2 gap-6">
             <div class="bg-white border rounded-xl p-4 shadow hover:shadow-md transition">
-              <h3 class="text-xl font-bold text-green-600 mb-2">Bien démarrer avec les crevettes Red Cherry</h3>
-              <p class="text-gray-600 text-sm mb-4">Un guide pratique pour constituer un environnement adapté et stable
+              <h3 class="text-xl font-bold title-h3 mb-2">Bien démarrer avec les crevettes Red Cherry</h3>
+              <p class=" text-sm mb-4">Un guide pratique pour constituer un environnement adapté et stable
                 pour vos premières crevettes ornementales.</p>
-              <NuxtLink to="/blog/red-cherry" class="text-green-500 hover:underline">Lire l'article →</NuxtLink>
+              <NuxtLink to="/blog/red-cherry" class="link hover:underline">Lire l'article →</NuxtLink>
             </div>
             <div class="bg-white border rounded-xl p-4 shadow hover:shadow-md transition">
-              <h3 class="text-xl font-bold text-green-600 mb-2">Les bases d’un bac low-tech pour crevettes</h3>
-              <p class="text-gray-600 text-sm mb-4">Économique, simple et efficace : découvrez les principes d’un
+              <h3 class="text-xl font-bold title-h3 mb-2">Les bases d’un bac low-tech pour crevettes</h3>
+              <p class=" text-sm mb-4">Économique, simple et efficace : découvrez les principes d’un
                 aquarium naturel sans filtration électrique.</p>
-              <NuxtLink to="/blog/bac-low-tech" class="text-green-500 hover:underline">Lire l'article →</NuxtLink>
+              <NuxtLink to="/blog/bac-low-tech" class="link hover:underline">Lire l'article →</NuxtLink>
             </div>
           </div>
         </div>

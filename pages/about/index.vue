@@ -1,88 +1,142 @@
 <script setup lang="ts">
-
+useHead({
+  title: "À propos de Shrimp Crevette - Crevettes d’aquarium & aquariophilie",
+  meta: [
+    {
+      name: "description",
+      content:
+          "Découvrez l’histoire et la mission derrière Shrimp Crevette, une plateforme francophone dédiée à l’aquariophilie et aux crevettes d’eau douce, notamment les Caridinas.",
+    },
+  ],
+})
 </script>
 
 <template>
-  <section class="bg-white text-zinc-900 py-20">
+  <section class="bg-white text-gray-800 py-20 rounded-3xl">
     <div class="container mx-auto max-w-6xl px-4 space-y-16">
 
-      <!-- Introduction -->
-      <div class="space-y-4 text-center">
-        <h1 class="text-4xl font-bold text-green-700">À propos</h1>
-        <p class="text-gray-700 text-lg leading-relaxed">
-          Derrière Shrimp Crevette, il y a moi — Anthony, aquariophile passionné, originaire d'Alsace.
+      <!-- Header -->
+      <div class="text-center space-y-4">
+        <h1 class="text-4xl font-bold title-h1">À propos de Shrimp Crevette</h1>
+        <p class="text-lg leading-relaxed max-w-2xl mx-auto">
+          Shrimp Crevette est un site francophone dédié aux passionnés de crevettes d’aquarium d’eau douce.
+          Son objectif : partager des ressources fiables, accessibles et communautaires autour des
+          <strong>Caridinas</strong> et de l’aquariophilie en général.
         </p>
       </div>
 
-      <!-- Mon histoire -->
+      <!-- Origine personnelle -->
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold text-green-600">Une passion transmise en famille</h2>
-        <p class="text-gray-700 leading-relaxed">
-          Mon amour pour l'aquariophilie m'a été transmis très tôt par deux figures clés de ma famille :
-          mon grand-père amoureux des beaux aquariums plantés qu’il exposait fièrement dans son salon
-          et un oncle du côté maternel, éleveur passionné. Deux inspirations différentes, mais complémentaires :
-          l’un dans l’esthétique, l’autre dans la technique.
+        <h2 class="text-2xl font-semibold title-h2">Une passion née d’une histoire personnelle</h2>
+        <p class="leading-relaxed">
+          À l’origine de ce projet, un passionné d’aquariophilie originaire d’Alsace, bercé depuis l’enfance par l’amour
+          des aquariums.
+          D’un côté, un grand-père créatif, amoureux de beaux bacs plantés ; de l’autre, un oncle rigoureux, spécialisé
+          dans l’élevage de poissons.
+        </p>
+        <p class="leading-relaxed">
+          Cette double influence — esthétique et technique — a nourri une passion durable, qui s’est orientée
+          progressivement vers l’univers fascinant des <strong>crevettes Caridina</strong>.
         </p>
       </div>
 
-      <!-- Le déclic crevettes -->
+      <!-- Vision du projet -->
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold text-green-600">De l'aquarium classique... aux Caridinas</h2>
-        <p class="text-gray-700 leading-relaxed">
-          J’ai débuté avec un aquarium classique, comme beaucoup. Mais au fil du temps, je me suis découvert
-          une vraie passion pour l’élevage, l’observation des comportements, et la quête de l’équilibre parfait
-          dans un bac. C’est ainsi que j’ai plongé dans le monde fascinant des crevettes, et plus particulièrement
-          des <strong>Caridinas</strong> — ces joyaux vivants aux exigences aussi délicates qu’enrichissantes.
+        <h2 class="text-2xl font-semibold title-h2">Pourquoi un site dédié aux crevettes ?</h2>
+        <p class="leading-relaxed">
+          En explorant ce domaine, un constat s’est vite imposé : le manque de contenu francophone fiable et détaillé.
+          Contrairement aux communautés anglophones ou germanophones, très actives, les ressources en français restent
+          limitées.
+        </p>
+        <p class="leading-relaxed">
+          C’est pour combler ce vide qu’est né Shrimp Crevette : un site pensé comme un <strong>point de repère pour
+          tous les passionnés francophones</strong> d’élevage de crevettes en aquarium.
         </p>
       </div>
 
-      <!-- Constat -->
+      <!-- Mission & valeurs -->
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold text-green-600">Un manque cruel de contenu francophone</h2>
-        <p class="text-gray-700 leading-relaxed">
-          En m'investissant dans cette passion, j’ai vite constaté un problème : les ressources disponibles
-          en français sont très limitées, souvent incomplètes ou trop superficielles. Pourtant, du côté anglophone
-          et germanophone, de véritables mines d’or existent.
+        <h2 class="text-2xl font-semibold title-h2">Une mission : partager, transmettre et rassembler</h2>
+        <p class="leading-relaxed">
+          Le site a pour vocation de :
         </p>
-        <p class="text-gray-700 leading-relaxed">
-          C’est ce constat qui m’a poussé à créer <strong>Shrimp Crevette</strong> : un espace d’informations
-          fiable, rigoureux, et accessible à tous les passionnés francophones.
+        <ul class="list-disc list-inside leading-relaxed">
+          <li>Diffuser des <strong>guides pratiques</strong> et pédagogiques sur l’élevage de crevettes d’eau douce</li>
+          <li>Présenter des <strong>fiches espèces</strong> claires et actualisées</li>
+          <li>Encourager le <strong>partage d’expériences</strong> entre passionnés</li>
+          <li>Fédérer une <strong>communauté francophone</strong> active et bienveillante</li>
+        </ul>
+        <p class="leading-relaxed">
+          Que vous soyez débutant curieux ou éleveur chevronné, vous êtes ici chez vous.
         </p>
       </div>
 
-      <!-- Mission -->
+      <!-- Contribution communautaire -->
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold text-green-600">Une mission simple : informer et rassembler</h2>
-        <p class="text-gray-700 leading-relaxed">
-          L’objectif de ce site est double : offrir un maximum d’informations pratiques sur les crevettes ornementales
-          et leur maintenance en aquarium, mais aussi <strong>rassembler une communauté francophone autour de cette
-          passion</strong>.
-          Débutants, experts, curieux : tout le monde y a sa place.
+        <h2 class="text-2xl font-semibold title-h2">Une plateforme collaborative</h2>
+        <p class="leading-relaxed">
+          Shrimp Crevette est ouvert à la contribution : articles, retours d’expérience, tutoriels ou observations
+          originales…
+          Toute personne désireuse de transmettre ses connaissances peut participer.
         </p>
-        <p class="text-gray-700 leading-relaxed">
-          Côté pro, je suis développeur web. Et après huit heures passées derrière un écran, l’aquariophilie m’offre un
-          retour à l’essentiel,
-          une parenthèse vivante et apaisante. C’est ma façon de retrouver un peu de nature, chez moi.
-        </p>
-      </div>
-
-      <!-- Contribution -->
-      <div class="space-y-4">
-        <h2 class="text-2xl font-semibold text-green-600">Partageons notre passion</h2>
-        <p class="text-gray-700 leading-relaxed">
-          Je ne prétends pas tout savoir, et je crois profondément à l’intelligence collective.
-          Si vous souhaitez partager un article, une expérience, ou un guide, vous êtes les bienvenus !
-          Votre nom sera crédité, et vous contribuerez à faire grandir la base de connaissances francophone
-          sur les invertébrés d’eau douce.
-        </p>
-        <a href="mailto:toto@toto.fr" class="btn btn-primary">
-          Proposer un article
-        </a>
+        <a href="mailto:toto@toto.fr" class="btn btn-primary">Proposer un article</a>
         <p class="text-sm text-gray-500 pt-4">
-          Vous pouvez aussi me retrouver sur Facebook : <a
-            href="https://facebook.com/ADShrimp" target="_blank"
-            class="text-green-600 hover:underline">AD Shrimp</a>
+          Vous pouvez aussi suivre les actualités du site sur Facebook :
+          <a href="https://facebook.com/ADShrimp" target="_blank" class="link hover:underline">AD Shrimp</a>
         </p>
+      </div>
+
+      <!-- (optionnel) FAQ -->
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold title-h2">Questions fréquentes</h2>
+
+        <details>
+          <summary class="font-semibold cursor-pointer">À qui s’adresse Shrimp Crevette ?</summary>
+          <p class="mt-2 leading-relaxed">
+            À tous les passionnés d’aquariophilie, qu’ils soient débutants ou expérimentés, avec un intérêt particulier
+            pour les crevettes d’eau douce, notamment les Caridinas.
+          </p>
+        </details>
+
+        <details>
+          <summary class="font-semibold cursor-pointer">Le contenu est-il gratuit ?</summary>
+          <p class="mt-2 leading-relaxed">
+            Oui, tous les articles, fiches et guides sont accessibles librement. Le but est de rendre l’information
+            disponible au plus grand nombre.
+          </p>
+        </details>
+
+        <details>
+          <summary class="font-semibold cursor-pointer">Puis-je contribuer au site ?</summary>
+          <p class="mt-2 leading-relaxed">
+            Absolument ! Vous pouvez proposer des articles, guides ou retours d’expérience. Une section dédiée à la
+            contribution communautaire est prévue.
+          </p>
+        </details>
+
+        <details>
+          <summary class="font-semibold cursor-pointer">Quelles espèces de crevettes sont couvertes ?</summary>
+          <p class="mt-2 leading-relaxed">
+            Principalement les crevettes d’eau douce comme les Caridinas, Neocaridinas, ainsi que d'autres invertébrés
+            compatibles (escargots, etc.). Les fiches seront régulièrement enrichies.
+          </p>
+        </details>
+
+        <details>
+          <summary class="font-semibold cursor-pointer">Comment débuter avec les crevettes d’aquarium ?</summary>
+          <p class="mt-2 leading-relaxed">
+            Une section “Guide” est en cours de création, avec des guides pratiques sur le choix du bac, les
+            paramètres de l’eau, l’acclimatation, la cohabitation, etc.
+          </p>
+        </details>
+
+        <details>
+          <summary class="font-semibold cursor-pointer">Puis-je poser des questions ou demander de l’aide ?</summary>
+          <p class="mt-2 leading-relaxed">
+            Bien sûr. Vous pouvez nous écrire ou rejoindre les discussions via les réseaux sociaux. Une section
+            commentaires ou un Discord est également envisagé.
+          </p>
+        </details>
       </div>
 
     </div>
